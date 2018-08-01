@@ -1,0 +1,150 @@
+body{
+	background-image: url(bgi2.jpg);
+	background-attachment: fixed;
+	background-repeat:no-repeat;
+	background-size: cover;
+	color:brown;
+	font-size:26px;
+	text-align: justify;
+	z-index: 0;
+}
+p{
+	text-indent: 5%;
+}
+header{
+		background-image: url(bgi2.jpg);
+		background-attachment: fixed;
+		background-repeat:no-repeat;
+		background-size: cover;		
+		z-index: 1;
+		text-align: center;
+		font-weight:bold;
+		font-size:20px;
+		font-family: sans-serif;
+		color:brown;
+		text-shadow: 2px 2px 2px rgb(90, 42, 42);
+		position: fixed;
+		top: 0;left: 0;right:0;
+		height: 70px;
+		line-height: 70px;
+		border-bottom: 2px solid black;
+		box-shadow: 0 2px 2px black;
+		box-sizing: border-box;
+	}
+footer{	
+		background-image: url(bgi2.jpg);
+		background-attachment: fixed;
+		background-repeat:no-repeat;
+		background-size: cover;
+		z-index: 1;
+		text-align: center;
+		position:fixed;
+		height: 70px;
+		bottom:0;left: 0;right:0;
+		border-top: 2px solid black;
+		box-shadow: 0 -2px 2px black;
+		box-sizing: border-box;
+		line-height: 70px;
+		/*padding-top: 10px;*/
+		}
+a.back:visited{
+		color:brown;
+}
+a.back:hover{
+		color:white;
+		background-color: gray;
+}
+a.back{
+		border-color:white;
+		border-radius: 5px;
+		border-style: solid;
+		background-color: white;
+		color:brown;
+		text-decoration-line: none;
+		font-size: 20px;
+		font-weight: bold;
+		box-shadow: 2px 2px 2px brown;
+}
+.main{
+		width: 600px;height: 250px;
+		margin: 150px auto 20px auto;
+		position: relative;
+		padding: auto;
+		z-index:0;
+	}
+.text{
+		width: 700px;height: 500px;
+		margin-left:auto;margin-right: auto;
+		position: relative;
+	}
+.img{
+		border-radius:80px;
+		border-width:2px;
+		border-style: solid;
+		border-color: gray;
+		position: absolute;
+		width: 160px;height: 160px;
+		margin: 20px;
+	}
+.img1{
+		background-image: url(person1.jpg);
+		left:0;
+	}
+.img2{
+		background-image: url(person2.jpg);
+		left:200px;
+	}
+.img3{
+		background-image: url(person3.jpg);
+		left: 400px;
+	}
+.sm{
+	background-image: url(social_icons.png);
+	width: 30px;height: 30px;border-radius: 15px;
+	position: absolute;
+
+	}
+.smf{
+	background-position: 0 30px;
+	top: 65px;left: -15px;
+	box-shadow: 2px 2px 2px black;
+}
+.smf:hover{
+	background-position: 0 0;
+	top: 67px;left: -13px;
+	cursor: pointer;
+	box-shadow: none;
+}
+.smt{
+	background-position: -30px 30px;
+	top: 35px;left: -5px;
+	box-shadow: 2px 2px 2px black;
+}
+.smt:hover{
+	background-position: -30px 0;
+	top: 37px;left: -3px;
+	cursor: pointer;
+	box-shadow: none;
+}
+.smb{
+	background-position: -60px 30px;
+	top: 8px;left: 8px;
+	box-shadow: 2px 2px 2px black;
+}
+.smb:hover{
+	background-position: -60px 0;
+	top: 10px;left: 10px;
+	cursor: pointer;
+	box-shadow: none;
+}
+.smm{
+	background-position: -90px 30px;
+	top: 145px;left: 65px;
+	box-shadow: 2px 2px 2px black;
+}
+.smm:hover{
+	background-position: -90px 0;
+	top: 147px;left: 67px;
+	cursor: pointer;
+	box-shadow: none;
+}
